@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+.grid {
+  display: grid;
+  width: 120px;
+  &__tile {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border: solid 2px blue;
+  }
+}
